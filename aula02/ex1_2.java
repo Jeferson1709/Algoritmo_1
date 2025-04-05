@@ -12,5 +12,6 @@ public class ex1_2 {
 
             System.out.println("seu numero é: " + num);
         }
+        input.close();
     }
 }

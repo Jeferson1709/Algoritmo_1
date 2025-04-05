@@ -33,5 +33,6 @@ public class ex1_3 {
                 System.out.println("Opção invalida !!!");
                 break;
         }
+        semana.close();
     }
 }

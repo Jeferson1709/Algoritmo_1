@@ -17,5 +17,6 @@ public class ex7_2 {
             System.out.println(salario + b10);
 
         }
+        entrada.close();
     }
 }

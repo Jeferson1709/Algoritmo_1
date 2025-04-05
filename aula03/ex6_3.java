@@ -45,6 +45,7 @@ public class ex6_3 {
                 System.out.println("Compra finalizada");
                 break;
         }
+        entrada.close();
 
     }
 

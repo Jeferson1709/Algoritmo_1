@@ -24,5 +24,6 @@ public class Exemplo5 {
             opcao = entrada.nextInt();
 
         }
+        entrada.close();
     }
 }

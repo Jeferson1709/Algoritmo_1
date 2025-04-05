@@ -15,5 +15,6 @@ public class ex6_2 {
         } else if (sexo.equals("m")) {
             System.out.println(peso / Math.pow(altura, 2));
         }
+        ent.close();
     }
 }

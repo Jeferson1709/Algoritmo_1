@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class notaAlunos {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        int i, nota;
+        int i;
+        int nota;
         i = 0;
         System.out.println(" Digite a nota do aluno");
         nota = entrada.nextInt();
@@ -14,5 +15,6 @@ public class notaAlunos {
             nota = entrada.nextInt();
             i++;
         }
+        entrada.close();
     }
 }

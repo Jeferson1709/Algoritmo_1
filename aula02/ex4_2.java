@@ -14,5 +14,6 @@ public class ex4_2 {
         } else {
             System.out.println("Os numeros não podem ser iguais!");
         }
+        ent.close();
     }
 }

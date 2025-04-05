@@ -38,5 +38,6 @@ public class ex13_2 {
         } else {
             System.out.println("Sinal invalido ");
         }
+        entrada.close();
     }
 }

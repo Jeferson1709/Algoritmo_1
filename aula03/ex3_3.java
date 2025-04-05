@@ -25,6 +25,6 @@ public class ex3_3 {
                 System.out.println("Opção invalida !!!");
                 break;
         }
-
+        perio.close();
     }
 }

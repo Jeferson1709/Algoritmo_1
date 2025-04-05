@@ -48,6 +48,7 @@ public class ex5_3 {
                 System.out.println("Opção invalida");
                 break;
         }
+        entrada.close();
 
     }
 }

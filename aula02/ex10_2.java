@@ -19,5 +19,6 @@ public class ex10_2 {
         } else {
             System.out.println(num3);
         }
+        entrada.close();
     }
 }

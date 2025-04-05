@@ -10,5 +10,6 @@ public class ex5_2 {
         } else {
             System.out.println("Não pertence ao intervalo");
         }
+        ent.close();
     }
 }

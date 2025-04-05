@@ -10,6 +10,7 @@ public class ex2_2 {
         } else {
             System.out.println(" Menor de idade!");
         }
+        input.close();
     }
 
 }

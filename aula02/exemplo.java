@@ -12,5 +12,6 @@ public class exemplo {
         } else {
             System.out.println("Seu palpite está muito abaixo");
         }
+        entrada.close();
     }
 }

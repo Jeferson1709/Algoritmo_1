@@ -14,5 +14,6 @@ public class ex3_2 {
         } else {
             System.out.println("A diferença é: " + (num2 - num1));
         }
+        entrada.close();
     }
 }

@@ -32,5 +32,6 @@ public class ex4_3 {
                 System.out.println("Opção invalida !!!!!");
                 break;
         }
+        entrada.close();
     }
 }

@@ -12,6 +12,6 @@ public class exemplo1 {
         } else {
             System.out.println("necessário mais pontos");
         }
-
+        input.close();
     }
 }

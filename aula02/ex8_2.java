@@ -12,5 +12,6 @@ public class ex8_2 {
         } else {
             System.out.println("Acesso negado");
         }
+        entrada.close();
     }
 }

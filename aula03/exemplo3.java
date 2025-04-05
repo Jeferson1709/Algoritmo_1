@@ -28,6 +28,7 @@ public class exemplo3 {
                 System.out.println("Opção invalida ");
                 break;
         }
+        entrada.close();
     }
 
 }

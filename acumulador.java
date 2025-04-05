@@ -11,5 +11,6 @@ public class acumulador {
             valorDigitado += num;
         }
         System.out.println(valorDigitado);
+        entrada.close();
     }
 }

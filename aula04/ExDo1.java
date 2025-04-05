@@ -13,5 +13,6 @@ public class ExDo1 {
         } while (nota < 0 || nota > 10);
         // while (!(nota >= 0 && nota <= 10));
         System.out.println("Nota Correta!");
+        entrada.close();
     }
 }

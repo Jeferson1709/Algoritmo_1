@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class ex12_2 {
     public static void main(String[] args) {
-        Scanner entranda = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
         System.out.println("======= Olá seja bem-vindo,  informe seu salário para saber seu desconto do INNS: ======");
-        double salario = entranda.nextDouble();
+        double salario = entrada.nextDouble();
         double desc30, desc25, desc20;
         desc30 = salario * 0.30;
         desc25 = salario * 0.25;
@@ -24,6 +24,6 @@ public class ex12_2 {
             System.out.println("Seu salario é de: " + salario);
             System.out.println("Você está insento de desconto!");
         }
-
+        entrada.close();
     }
 }

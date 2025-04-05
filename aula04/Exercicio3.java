@@ -12,5 +12,6 @@ public class Exercicio3 {
             i *= 2;
 
         }
+        entrada.close();
     }
 }

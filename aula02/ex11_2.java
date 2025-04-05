@@ -17,5 +17,6 @@ public class ex11_2 {
         } else if (idade >= 18) {
             System.out.println("Você pertence a categoria: " + "Sênior");
         }
+        entrada.close();
     }
 }

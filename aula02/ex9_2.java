@@ -14,5 +14,6 @@ public class ex9_2 {
             System.out.println("Empréstimo não pode ser concedido!");
 
         }
+        entrada.close();
     }
 }

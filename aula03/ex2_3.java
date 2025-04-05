@@ -50,5 +50,6 @@ public class ex2_3 {
                 System.out.println("Opção invalida !!!");
                 break;
         }
+        mes.close();
     }
 }
