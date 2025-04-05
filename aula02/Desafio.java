@@ -47,5 +47,6 @@ public class Desafio {
                 || (alfa != "n" || alfa != "Não" || alfa != "não" || alfa != "nao")) {
             System.out.println("Opção invalida");
         }
+        entrada.close();
     }
 }
